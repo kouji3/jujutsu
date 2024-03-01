@@ -159,3 +159,27 @@ body, html {
     }
 }
 
+@media only screen and (min-width: 1350px) and (max-width: 1660px) {
+    .img {
+        grid-column: 1 / span 3;
+    }
+
+    .second-img {
+        grid-column: 1 / span 3;
+    }
+
+    
+}
+
+@media only screen and (min-width: 0px) and (max-width: 890px) {
+    .h1 {
+        font-size: 36px;
+    }
+
+    .links {
+        padding-bottom: 1px;
+    }
+
+    
+}
+
